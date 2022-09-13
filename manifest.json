@@ -19,6 +19,13 @@
     },
     "default_title": "Go to random tab"
   },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Period"
+      }
+    }
+  },
   "background": {
     "scripts": ["go-to-random-tab.js"],
     "persistent": false
